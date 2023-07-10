@@ -1,0 +1,317 @@
+/* Estilos Gerais */
+body  {
+  padding-top: 80px;
+  background-image: url(banner.png);
+  background-repeat: no-repeat;
+}
+.navbar {
+  padding: 10px;
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  box-sizing: border-box;
+  transition: .3s;
+  }
+  .navbar.black {
+  background-color: pink !important;
+  height: 60px;
+  padding: 10px 50px;
+  }
+  
+  .navbar .logo {
+  float: left;
+  }
+  
+  .navbar .logo img {
+  height: 110px;
+  transition: .5s;
+  margin-left: 20%;
+  }
+  
+  .navbar .carrinho {
+    float: left;
+    }
+    
+    .navbar .carrinho img {
+    height: 30px;
+    transition: .5s;
+    margin-left: 1000%;
+    }
+  
+  .navbar.black .logo img {
+  height: 60px;
+  }
+  
+  .navbar ul {
+  list-style: none;
+  width: auto;
+  margin: 0 auto;
+  }
+  
+  .navbar ul li {
+  list-style: none;
+  }
+  
+  .navbar ul li a {
+  line-height: 20px;
+  color: pink;
+  padding: 5px 30px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .5s;
+  margin: 0 15px;
+  }
+  
+  .navbar.black ul li a {
+  color: #fff;
+  margin: 0 25px;
+  }
+  
+  .navbar ul li a.active, .navbar ul li a:hover {
+  color: #fff;
+  background: rgb(245, 31, 149);
+  }
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+h3{
+font-size: 18px;
+line-height: 30px;
+font-weight: bold;
+letter-spacing: .1em;
+color: #000;
+text-transform: uppercase;
+text-align: left;
+/* margin-bottom: 5px; */
+margin-top: 55px;
+}
+
+img {
+display: block;
+}
+
+
+.posição{
+  position: absolute;
+  top: 600px; }
+
+.contato {
+padding: 60px 0;
+}
+
+.subtitulo {
+font-size: 24px;
+line-height: 30px;
+font-weight: bold;
+letter-spacing: .1em;
+color: #000;
+text-transform: uppercase;
+text-align: left;
+margin-bottom: 15px;
+}
+
+.subtitulo:after {
+content: "";
+display: block;
+width: 60px;
+height: 5px;
+background: pink;
+margin: 8px 0;
+  text-align: left;
+}
+
+.p-form{
+  padding-bottom: 25px;
+}
+
+/* Formulário */
+
+.contato-form {
+padding-right: 60px;
+}
+
+.contato-form label{
+display: block;
+font-family: Georgia, "Times New Roman", serif;
+font-size: 15px;
+line-height: 25px;
+margin-bottom: 4px;
+}
+
+.contato-form input {
+display: block;
+width: 100%;
+border: 2px solid #000000;
+background: none;
+padding: 7px 10px;
+margin-bottom: 10px;
+outline: none;
+font-size: 14px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.contato-form textarea {
+display: block;
+width: 100%;
+height: 120px;
+border: 2px solid #323C42;
+background: none;
+padding: 7px 10px;
+margin-bottom: 20px;
+outline: none;
+font-size: 14px;
+font-family: Georgia, "Times New Roman", serif;
+}
+
+.contato-form button {
+padding: 7px 40px;
+background: pink;
+}
+
+
+/* Horario atendimento*/
+
+.atendimento{
+  padding: 10px 0;
+}
+
+.contato_dados h3{
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+/* Redes Sociais */
+
+.contato_dados ul {
+margin-top: 10px;
+}
+
+.contato_dados ul li {
+display: inline-block;
+margin-right: 10px;
+}
+
+.contato_dados ul li a {
+border: 2px solid #323C42;
+display: block;
+padding: 10px;
+}
+
+.contato_dados ul li a:hover {
+border: 2px solid #323C42;
+  background-color: pink;
+}
+
+.btn {
+  padding: 10px 30px;
+color: black;
+  background-color: black;
+  border: 2px solid black;
+font-size: 14px;
+line-height: 20px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: .1em;
+}
+
+.btn:hover {
+color: rgb(255, 5, 5);
+  background-color: rgb(236, 21, 21);
+  border: 2px solid rgb(235, 9, 9);
+}
+
+/* Mapa */
+
+.contato_mapa{
+  padding: 40px 0;
+}
+
+
+.contato_mapa p{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.contato_mapa img{
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+
+/* Footer */
+
+.copy {
+width: 100%;
+padding: 20px 0;
+background-color: pink;
+}
+
+.copy p{
+  text-align: center;
+  color:#000000;
+  font-size: 14px;
+font-family: Georgia, "Times New Roman", serif;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+}
+
+.container:after, .container:before {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.grid-1 	{width: 40px;}
+.grid-2 	{width: 100px;}
+.grid-3 	{width: 160px;}
+.grid-4 	{width: 220px;}
+.grid-5 	{width: 280px;}
+.grid-6 	{width: 340px;}
+.grid-7 	{width: 400px;}
+.grid-8 	{width: 460px;}
+.grid-9 	{width: 520px;}
+.grid-10 	{width: 580px;}
+.grid-11 	{width: 640px;}
+.grid-12 	{width: 700px;}
+.grid-13 	{width: 760px;}
+.grid-14 	{width: 820px;}
+.grid-15 	{width: 880px;}
+.grid-16 	{width: 940px;}
+.grid-1-3	{width: 300px;}
+
+.container {
+	width: 768px;
+}
+
+.grid-1		{width: 28px;}

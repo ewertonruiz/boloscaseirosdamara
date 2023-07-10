@@ -1,0 +1,117 @@
+@media (min-width: 1650px) {
+    html {
+        font-size: 100%;
+    }
+
+
+
+    .header {
+        margin: 0 40px;
+    }
+
+
+
+    .descricao-fone {
+        width: 700px;
+        height: 700px;
+    }
+
+    main img {
+        width: 700px;
+        height: 700px;
+    }
+
+    .box-f {
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .fone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main img {
+        margin-bottom: 50px;
+    }
+
+    .box-f {
+        width: 20%;
+        height: 100px;
+        background-color: none;
+        border: none;
+        border-radius: 0px;
+        box-shadow: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+
+    main img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .descricao-fone {
+        width: 350px;
+        height: 350px;
+    }
+
+    .links-nav-2 {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .links-nav-2 {
+        display: none;
+    }
+
+    .box-f h4 {
+        font-size: 1.2rem;
+        display: block;
+    }
+    .links-nav {
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 30%;
+    }
+
+    .links-nav{
+        display: none;
+    }
+    .links-nav-2 {
+        display: block;
+    }
+    .descricao-fone {
+        width: 250px;
+        height: 250px;
+    }
+    main img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .box-f {
+        display: none;
+    }
+
+    button {
+        height: 40%;
+        width: 60%;
+    }
+}
